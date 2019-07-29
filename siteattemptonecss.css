@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+}
+.header {
+    background-color: rgb(44, 44, 44);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 2;
+}
+.header ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: white;
+    list-style-type: none;
+    display: inline-flex;
+}
+.header ul li {
+    padding: 10px;
+    padding-right: 60px;
+}
+#homepage-featured-image {
+    position: relative;
+    top: 100px;
+}
+.orange-divider {
+    background-color: orange;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 700px;
+    border-top: 2px dotted black;
+}
+h1 {
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span h1 {
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
