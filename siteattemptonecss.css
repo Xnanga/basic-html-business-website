@@ -40,3 +40,32 @@ span h1 {
     color: black;
     text-align: center;
 }
+.homepage-widget-block {
+	list-style-type: none;
+	display: flex;
+	width: auto;
+	height: 400px;
+	position: relative;
+	top: 100px;
+	align: center;
+}
+.homepage-widget-block li {
+	box-sizing: border-box;
+	padding: 100px;
+	border: 2px solid grey;
+	position: relative;
+	top: 100px;
+	margin: 40px;
+}
+.homepage-widget-block p {
+	font-size: 25px;
+	position:relative;
+	bottom: 140px;
+}
+.homepage-widget-block h2 {
+	font-size: 40px;
+	border-bottom: 1px solid grey;
+	position:relative;
+	bottom: 125px;
+	display: inline-box;
+}
